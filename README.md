@@ -5,23 +5,27 @@ This is a machine learning project that predicts housing prices in Bangalore bas
 ---
 
 ## 📁 Project Structure
-
+```
 Project1_Real_Estate_Prediction/
-├── client/ # Frontend (HTML, CSS, JS)
-│ ├── app.html
-│ ├── app.css
-│ └── app.js
-├── model/ # Model building and preprocessing
-│ ├── util.py
-│ └── saved artifacts (e.g., model.pkl, columns.json)
-├── server/ # Flask API
-│ └── server.py
-├── bengaluru_house_prices.csv # Raw dataset
-└── README.md # Project documentation
+│
+├── client/                     # Frontend (HTML, CSS, JS)
+│   ├── app.html
+│   ├── app.css
+│   └── app.js
+│
+├── model/                      # Data exploration and model training
+│   ├── bengaluru_house_prices_exp.ipynb
+│   ├── bangalore_home_prices_model.pickle
+│   └── columns.json
+│
+├── server/                     # Flask backend and utility functions
+│   ├── server.py
+│   └── util.py
+│
+├── bengaluru_house_prices.csv # Raw dataset used for training
+└── README.md                   # Project documentation (this file)
 
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -73,6 +77,8 @@ python server.py
 ---
 ## 📊 Dataset
 - The dataset is from Kaggle: Bengaluru House Data. It contains various features like area, location, number of bathrooms, and price per square foot.
+- The dataset is from [Kaggle: Bengaluru House Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
+
 ---
 
 ## 🔮 Model

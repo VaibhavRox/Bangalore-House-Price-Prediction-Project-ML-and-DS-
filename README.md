@@ -1,10 +1,10 @@
-# 🏠 Bangalore Real Estate Price Prediction
+#  Bangalore Real Estate Price Prediction
 
 This is a machine learning project that predicts housing prices in Bangalore based on area (square feet), number of BHKs, bathrooms, and location. The project includes a complete web interface (HTML/CSS/JS frontend) connected to a Python Flask backend using a trained ML model.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Project1_Real_Estate_Prediction/
 │
@@ -29,7 +29,7 @@ Project1_Real_Estate_Prediction/
 
 ---
 
-## 💡 Features
+##  Features
 
 - Predict house price based on:
   - Total square footage
@@ -43,7 +43,7 @@ Project1_Real_Estate_Prediction/
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - **Python** (Pandas, NumPy, Scikit-learn)
 - **Flask** for backend API
@@ -53,7 +53,7 @@ Project1_Real_Estate_Prediction/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -75,13 +75,13 @@ python server.py
 ### 4. Open the Web UI
 - Open client/app.html in your browser, or serve it using Flask if desired.
 ---
-## 📊 Dataset
+##  Dataset
 - The dataset is from Kaggle: Bengaluru House Data. It contains various features like area, location, number of bathrooms, and price per square foot.
 - The dataset is from [Kaggle: Bengaluru House Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
 
 ---
 
-## 🔮 Model
+##  Model
 
 - Trained using Linear Regression
 
